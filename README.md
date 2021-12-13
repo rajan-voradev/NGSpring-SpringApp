@@ -1,20 +1,19 @@
 # Dummy User App (Spring application)
 
-##Installing the code
+## Installing the code
 
-The following are detailed instructions for installing the code
+DummyUser is Spring Booth application built using Maven
 
-## Development server
-
-## Features
-
-
-  Application works with NGSpring-NgApp
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## Stackblitz
-
-Working in progress
+	1. Either clone the project or download a zip to local directory
+	2. Inside Eclipse/STS or IntelliJ
+		File -> Import -> Maven -> Existing Maven project
+		Then build the project: . Using the IDE right click
+                         or ./mvnw generate-resources
+	3. update the application properties and set he db props
+	4. The application uses the following table in PDREP db
+      CREATE TABLE PDREP.DUMMYUSER (
+        ID          NUMBER                            NOT NULL,
+        FIRST_NAME  VARCHAR2(45 BYTE)                 NOT NULL,
+        LAST_NAME   VARCHAR2(45 BYTE)                 NOT NULL,
+        EMAILID     VARCHAR2(45 BYTE)
+      )
