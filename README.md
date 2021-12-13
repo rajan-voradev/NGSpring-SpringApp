@@ -17,4 +17,4 @@ DummyUser is Spring Booth application built using Maven
 		LAST_NAME   VARCHAR2(45 BYTE)                 NOT NULL,
 		EMAILID     VARCHAR2(45 BYTE)
 	      )
-      	5. Run the DummyUserApplication
+	5. Run the DummyUserApplication
